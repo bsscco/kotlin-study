@@ -1,2 +1,2 @@
-# kotlin-study
-코틀린 공부를 정리한다.
+# 소개
+Kotlin 스터디 정리
