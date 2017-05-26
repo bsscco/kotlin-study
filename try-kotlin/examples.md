@@ -52,14 +52,16 @@
 	```
 
 ### Use a while-loop.kt
-- ```kotlin
+- while
+	```kotlin
 	while (i < args.size)
 		println(args[i++])
 	```
 - do...while문 또한 Java와 같이 잘 동작한다.
 
 ### Use for-loop.kt
-- ```kotlin
+- for 
+	```kotlin
 	for (arg in args)
 		println(arg)
 
@@ -68,4 +70,21 @@
 	for (i in args.indices)
 			println(args[i])
 
+	```
+
+### Use ranges and in.kt
+- if in ```if (x in 1..y - 1)```
+- for in ```for (a in array)```
+- range ```for (a in 1..5)```
+
+### Use when.kt
+- when
+	```kotlin
+	when (obj) {
+        1 -> println("One")
+        "Hello" -> println("Greeting")
+        is Long -> println("Long")
+        !is String -> println("Not a string")
+        else -> println("Unknown")
+    }
 	```
