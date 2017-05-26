@@ -1,1 +1,1 @@
-# [참고 예제](https://try.kotlinlang.org)
+# [참고 사이트](https://try.kotlinlang.org)
