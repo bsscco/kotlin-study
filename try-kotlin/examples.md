@@ -5,14 +5,14 @@
 - 반환값이 없을 땐 Unit을 리턴하거나 생략 가능
 
 ### Reading a name from the command line.kt
-- string template ```"Hello, ${args[0]}!"```
+- **string template** ```"Hello, ${args[0]}!"```
 
 ### Reading many names from the command line.kt
 - loop ```for (name in args)```
 
 ### A multi-language Hello.kt
-- if expression ```val language = if (args.size == 0) "EN" else args[0]```
-- when expression
+- **if expression** ```val language = if (args.size == 0) "EN" else args[0]```
+- **when expression**
 	```kotlin
 	println(when (language) {
 			"EN" -> "Hello!"
@@ -22,7 +22,7 @@
 	})
 	```
 ### An object-oriented Hello.kt
-- class definition and primary constructor
+- class definition and **primary constructor**
 	```kotlin
 	class Greeter(val name: String) {
 	}
@@ -38,11 +38,11 @@
 - if expression 덕에 ternary operator는 더 이상 필요하지 않다.
 
 ### Null-checks.kt
-- nullable이 되려면 퀘스찬마크(?)를 반드시 붙여줘야 한다. ```fun parseInt(str: String): Int? {``` 
+- **nullable**이 되려면 퀘스찬마크(?)를 반드시 붙여줘야 한다. ```fun parseInt(str: String): Int? {``` 
 
 ### is-checks and smart-casts.kt
 - is operation은 Java의 instanceof와 같다.
-- 만약 is-checked 변수가 있다면 명시적 casting을 할 필요가 없다.
+- 만약 is-checked 변수가 있다면 명시적 casting을 할 필요가 없다. **smart casting**
 	```kotlin
 	fun getStringLength(obj: Any): Int? {
 		if (obj is String)
@@ -52,15 +52,15 @@
 	```
 
 ### Use a while-loop.kt
-- while
+- **while**
 	```kotlin
 	while (i < args.size)
 		println(args[i++])
 	```
-- do...while문 또한 Java와 같이 잘 동작한다.
+- **do...while**문 또한 Java와 같이 잘 동작한다.
 
 ### Use for-loop.kt
-- for 
+- **for** 
 	```kotlin
 	for (arg in args)
 		println(arg)
@@ -73,12 +73,12 @@
 	```
 
 ### Use ranges and in.kt
-- if in ```if (x in 1..y - 1)```
-- for in ```for (a in array)```
-- range ```for (a in 1..5)```
+- **if in** ```if (x in 1..y - 1)```
+- **for in** ```for (a in array)```
+- **range** ```for (a in 1..5)```
 
 ### Use when.kt
-- when
+- when expression
 	```kotlin
 	when (obj) {
         1 -> println("One")
@@ -95,7 +95,7 @@
 
 ### Destructuring declarations.kt
 - [문서](http://kotlinlang.org/docs/reference/multi-declarations.html#destructuring-declarations)
-- 때때로 몇 개의 변수 안으로 객체를 파괴해 넣는 것은 편리합니다. 이것을 destructuring declarations라고 부릅니다. ```val (name, age) = person```
+- 때때로 몇 개의 변수 안으로 객체를 파괴해 넣는 것은 편리합니다. 이것을 **destructuring declarations**라고 부릅니다. ```val (name, age) = person```
 - 그 밖에 for-loop에서도 돌아갑니다. ```for ((a, b) in collection) { ... }```
 - 위 코드는 아래와 같이 컴파일됩니다.
 	```kotlin
