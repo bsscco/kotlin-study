@@ -7,4 +7,9 @@
 
 ### 팁
 - 깊은 멤버 데이터에 접근할 때 null-safety하게 구현하는 법
-	- ```obj?.a?.b?.c?.name ?: ""```
+	- ```obj?.a?.b?.c?.name ?: ""``` elvis operator
+
+- 선 null 체크가 필요한 코드는 if문 대신에 ?.let{}으로 구현한다.
+	- ```item?.let { println(it) }```
+
+- list엔 filterNotNull()이라는 메소드가 있다.
