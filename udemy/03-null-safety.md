@@ -7,7 +7,7 @@
 
 ### 팁
 - 깊은 멤버 데이터를 대입할 때 null-safety하게 구현하는 법
-	- ```obj?.a?.b?.c?.name ?: ""``` elvis operator
+	- ```obj?.a?.b?.c?.name ?: "defalut value"``` elvis operator를 사용한다.
 
 - 선 null 체크가 필요한 로직은 if문 대신에 ?.let{}으로 구현한다.
 	- ```item?.let { println(it) }```
