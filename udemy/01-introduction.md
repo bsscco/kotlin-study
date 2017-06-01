@@ -2,7 +2,7 @@
 ### 뭐니?
 - JVM에서 돌아감. -> 100% 자바와 호환
 - Null safety
-- 현대 언어들의 기능을 잘 갖추고 있어서 Lambda나 Stream을 쓸 필요가 없음.
+- 현대 언어들의 기능을 잘 갖추고 있어서 Lambda나 Stream을 쓸 필요가 없다.
 
 ### 뭐랑 비슷하다.
 - Swift와 비슷하다.
@@ -16,7 +16,7 @@
 - Tools-Kotlin-Configure Kotlin in Project-Android with Gradle-OK 클릭
 - Sync Now를 클릭
 
-### 자바 to 코틀린 컨버팅
+### .java to .kt
 - Code-Convert Java File to Kotlin File 
 
 # 기본 문법
@@ -37,7 +37,7 @@
 - null을 넣으려면 ```var a: Int?```와 같이 선언
 
 ### String
-- String 템플릿
+- string template
 	- ```"Name $name length = ${name.length}"```
 
 ### Any
