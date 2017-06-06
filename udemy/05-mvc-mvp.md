@@ -20,4 +20,4 @@
 - Presenter
 	- MVC의 C와 같다. 
 - 그럼 MVC랑 뭐가 다른가?
-	- M, V, P는 인터페이스로 통신한다. P가 M과 연결되는 사이와 P가 V와 연결되는 사이를 추상화 시켜서 더 testable하게, maintainable하게 만들었다.
+	- MVC의 V와 C는 다수:1로 대응된다. MVP의 V와 P는 1:1로 대응된다. MVP는 MVC의 C에 집중되어있는 많은 코드들을 MVP의 여러 개의 P들로 나누었다. 이로 인해 더 testable하게, maintainable하게 된다.
