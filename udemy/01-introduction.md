@@ -1,11 +1,14 @@
 # 소개
-### 뭐니?
-- JVM에서 돌아감. -> 100% 자바와 호환
+### 뭔가요?
+- JVM에서 돌아감. -> 자바와 100% 호환
 - Null safety
-- 현대 언어들의 기능을 잘 갖추고 있어서 Lambda나 Stream을 쓸 필요가 없다.
+- 현대 언어들의 기능을 잘 갖추고 있어서 Lambda나 Stream을 지원합니다.
 
-### 뭐랑 비슷하다.
-- Swift와 비슷하다.
+### 비슷한 언어
+- Swift와 비슷합니다.
+<br/>
+<br/>
+<br/>
 
 # 준비
 ### 플러그인 설치
@@ -18,18 +21,22 @@
 
 ### .java to .kt
 - Code-Convert Java File to Kotlin File 
+<br/>
+<br/>
+<br/>
 
 # 기본 문법
 ### Basic
-- 기본 타입 없이 전부 객체
+- primative 타입 없이 전부 객체
 - val / var
 - 타입 유추
-	- 정수 유추 기본 타입은 Int
-	- 실수 유추 기본 타입은 Double
+	- 정수 유추 default 타입은 Int
+	- 실수 유추 default 타입은 Double
 - 함수 축약
 - 지역 함수
-- 중위 표기법
+- 함수 확장
 	- ```fun Int.plus(x: Int) = this + x```는 ```1.plus(x)```로  쓸 수 있음.
+- 중위 표기법
 	- ```infix fun Int.plus(x: Int) = this + x```는 ``1 plus x```로 쓸 수 있음. 단, 인자가 1개일 때만 사용 가능.
 
 ### NULL
@@ -44,7 +51,7 @@
 - Java의 Object
 - is와 조합
 	```kotlin
-	if(a is String) {
+	if(a is String) { // 스마트 캐스팅
 		println(a.length)
 	}
 	```
