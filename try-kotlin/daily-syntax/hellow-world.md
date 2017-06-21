@@ -1,0 +1,16 @@
+# 맛보기
+```kotlin
+fun main(args: Array<String>) {
+}
+
+class Greeter(val name: String) {
+	fun greet() {
+	}
+}
+```
+- for in
+- string template
+- when express
+- if express
+- is checks and smart casting
+- ranges : ```1...5```의 뜻은 1부터 5까지 5포함
