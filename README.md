@@ -1,2 +1,3 @@
 # study-kotlin
-코틀린 정리 [http://kotlinlang.org/](http://kotlinlang.org/)
+코틀린 정리 
+[코틀린 닥스](http://kotlinlang.org/)
